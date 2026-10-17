@@ -24,12 +24,15 @@ Add cross-chain swaps to your product:
 
 | | |
 |---|---|
-| **REST API** | `GET /v1/quote` → `POST /v1/orders` → `GET /v1/orders/{provider}/{id}` |
-| **TypeScript SDK** | Typed client: quote, build, submit and watch orders |
+| **REST API** | `GET /v1/quote` → `POST /v1/orders` → `GET /v1/orders/{provider}/{id}`, plus `/v1/simulate` |
+| **Dashboard** | [dashboard.layerhop.com](https://dashboard.layerhop.com): sign in with your wallet, create API keys, see usage, logs and orders |
+| **Webhooks** | Signed `order.filled` / `refunded` / `failed` events to your server |
+| **SDKs** | TypeScript, React, Python, Go, Rust, plus a `layerhop` CLI |
 | **Widget** | One iframe or React component, themeable, with postMessage events |
-| **Deep links** | `layerhop.com/swap?srcChain=base&srcToken=USDC&dstChain=solana&dstToken=SOL&amount=100` |
+| **AI agents** | MCP server at `mcp.layerhop.com/mcp`: Claude, ChatGPT and Cursor can quote swaps and hand you a link to sign |
+| **Partner fees** | Earn your own fee on top of every swap your users make |
 
-Read the docs at **[docs.layerhop.com](https://docs.layerhop.com)**. The SDK and widget packages are coming to npm soon.
+Read the docs at **[docs.layerhop.com](https://docs.layerhop.com)**.
 
 ## Security
 
