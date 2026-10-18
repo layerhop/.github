@@ -29,6 +29,7 @@ Add cross-chain swaps and crypto payments to your product:
 |---|---|
 | **REST API** | `GET /v1/quote` → `POST /v1/orders` → `GET /v1/orders/{provider}/{id}`, plus `/v1/simulate`. Try every endpoint in the [API playground](https://docs.layerhop.com/playground) |
 | **Checkout** | [Pay with any token](https://docs.layerhop.com/guides/checkout): get paid in USDC or USDT while customers pay with any token on any chain; delivery verified on chain before `paid` |
+| **On your site** | [Embedded checkout](https://docs.layerhop.com/guides/embedded-checkout) (popup or inline, `checkout.js` / React), [payment buttons](https://docs.layerhop.com/guides/payment-buttons) with no backend, and a [WordPress / WooCommerce plugin](https://docs.layerhop.com/guides/wordpress) |
 | **Test mode** | [`lh_test_` keys](https://docs.layerhop.com/guides/test-mode): sandbox quotes, simulated orders and test webhooks, no real funds |
 | **Dashboard** | [dashboard.layerhop.com](https://dashboard.layerhop.com): sign in with your wallet, create API keys, payment links, see usage, logs and orders, switch to test mode |
 | **Live status** | [Server-Sent Events](https://docs.layerhop.com/guides/live-status) for orders and checkout sessions: every change the moment it happens |
