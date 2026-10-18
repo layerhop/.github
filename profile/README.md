@@ -57,13 +57,13 @@ cargo add layerhop                 # Rust
 
 | Package | Registry |
 |---|---|
-| `@layerhop/sdk` | [![npm](https://img.shields.io/npm/v/@layerhop/sdk?color=c3f06b&labelColor=090d15)](https://www.npmjs.com/package/@layerhop/sdk) |
-| `@layerhop/react` | [![npm](https://img.shields.io/npm/v/@layerhop/react?color=c3f06b&labelColor=090d15)](https://www.npmjs.com/package/@layerhop/react) |
-| `@layerhop/widget` | [![npm](https://img.shields.io/npm/v/@layerhop/widget?color=c3f06b&labelColor=090d15)](https://www.npmjs.com/package/@layerhop/widget) |
-| `@layerhop/cli` | [![npm](https://img.shields.io/npm/v/@layerhop/cli?color=c3f06b&labelColor=090d15)](https://www.npmjs.com/package/@layerhop/cli) |
-| `@layerhop/mcp` | [![npm](https://img.shields.io/npm/v/@layerhop/mcp?color=c3f06b&labelColor=090d15)](https://www.npmjs.com/package/@layerhop/mcp) |
-| `layerhop` (Python) | [![PyPI](https://img.shields.io/pypi/v/layerhop?color=c3f06b&labelColor=090d15)](https://pypi.org/project/layerhop/) |
-| `layerhop` (Rust) | [![crates.io](https://img.shields.io/crates/v/layerhop?color=c3f06b&labelColor=090d15)](https://crates.io/crates/layerhop) |
+| `@layerhop/sdk` | [![npm](https://img.shields.io/npm/v/@layerhop/sdk?color=c3f06b&labelColor=090d15&cacheSeconds=3600)](https://www.npmjs.com/package/@layerhop/sdk) |
+| `@layerhop/react` | [![npm](https://img.shields.io/npm/v/@layerhop/react?color=c3f06b&labelColor=090d15&cacheSeconds=3600)](https://www.npmjs.com/package/@layerhop/react) |
+| `@layerhop/widget` | [![npm](https://img.shields.io/npm/v/@layerhop/widget?color=c3f06b&labelColor=090d15&cacheSeconds=3600)](https://www.npmjs.com/package/@layerhop/widget) |
+| `@layerhop/cli` | [![npm](https://img.shields.io/npm/v/@layerhop/cli?color=c3f06b&labelColor=090d15&cacheSeconds=3600)](https://www.npmjs.com/package/@layerhop/cli) |
+| `@layerhop/mcp` | [![npm](https://img.shields.io/npm/v/@layerhop/mcp?color=c3f06b&labelColor=090d15&cacheSeconds=3600)](https://www.npmjs.com/package/@layerhop/mcp) |
+| `layerhop` (Python) | [![PyPI](https://img.shields.io/pypi/v/layerhop?color=c3f06b&labelColor=090d15&cacheSeconds=3600)](https://pypi.org/project/layerhop/) |
+| `layerhop` (Rust) | [![crates.io](https://img.shields.io/crates/v/layerhop?color=c3f06b&labelColor=090d15&cacheSeconds=3600)](https://crates.io/crates/layerhop) |
 | `layerhop-go` (Go) | [![Go Reference](https://pkg.go.dev/badge/github.com/layerhop/layerhop-go.svg)](https://pkg.go.dev/github.com/layerhop/layerhop-go) |
 
 ## Open-source repositories
