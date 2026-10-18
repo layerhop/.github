@@ -44,6 +44,7 @@ npx @layerhop/cli chains           # CLI
 npx -y @layerhop/mcp               # MCP server for AI agents
 pip install layerhop               # Python
 go get github.com/layerhop/layerhop-go   # Go
+cargo add layerhop                 # Rust
 ```
 
 | Package | Registry |
@@ -54,6 +55,7 @@ go get github.com/layerhop/layerhop-go   # Go
 | `@layerhop/cli` | [![npm](https://img.shields.io/npm/v/@layerhop/cli?color=c3f06b&labelColor=090d15)](https://www.npmjs.com/package/@layerhop/cli) |
 | `@layerhop/mcp` | [![npm](https://img.shields.io/npm/v/@layerhop/mcp?color=c3f06b&labelColor=090d15)](https://www.npmjs.com/package/@layerhop/mcp) |
 | `layerhop` (Python) | [![PyPI](https://img.shields.io/pypi/v/layerhop?color=c3f06b&labelColor=090d15)](https://pypi.org/project/layerhop/) |
+| `layerhop` (Rust) | [![crates.io](https://img.shields.io/crates/v/layerhop?color=c3f06b&labelColor=090d15)](https://crates.io/crates/layerhop) |
 | `layerhop-go` (Go) | [![Go Reference](https://pkg.go.dev/badge/github.com/layerhop/layerhop-go.svg)](https://pkg.go.dev/github.com/layerhop/layerhop-go) |
 
 ## Open-source repositories
@@ -63,6 +65,7 @@ go get github.com/layerhop/layerhop-go   # Go
 | [layerhop-js](https://github.com/layerhop/layerhop-js) | TypeScript SDK, React hooks, swap widget, CLI and MCP server (MIT) |
 | [layerhop-python](https://github.com/layerhop/layerhop-python) | Python SDK, sync + async (MIT) |
 | [layerhop-go](https://github.com/layerhop/layerhop-go) | Go SDK, standard library only (MIT) |
+| [layerhop-rust](https://github.com/layerhop/layerhop-rust) | Rust SDK, async on reqwest + tokio (MIT) |
 
 Read the docs at **[docs.layerhop.com](https://docs.layerhop.com)**. Questions? See [SUPPORT.md](https://github.com/layerhop/.github/blob/main/SUPPORT.md).
 
