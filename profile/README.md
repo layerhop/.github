@@ -9,6 +9,7 @@
   <a href="https://t.me/layerhop_bot">Telegram bot</a> ·
   <a href="https://dashboard.layerhop.com">Dashboard</a> ·
   <a href="https://docs.layerhop.com/llms.txt">llms.txt</a> ·
+  <a href="https://status.layerhop.com">Status</a> ·
   <a href="mailto:dev@layerhop.com">Contact</a>
 </p>
 
@@ -29,15 +30,17 @@ Add cross-chain swaps and crypto payments to your product:
 |---|---|
 | **REST API** | `GET /v1/quote` → `POST /v1/orders` → `GET /v1/orders/{provider}/{id}`, plus `/v1/simulate`. Try every endpoint in the [API playground](https://docs.layerhop.com/playground) |
 | **Checkout** | [Pay with any token](https://docs.layerhop.com/guides/checkout): get paid in USDC or USDT while customers pay with any token on any chain; delivery verified on chain before `paid` |
-| **On your site** | [Embedded checkout](https://docs.layerhop.com/guides/embedded-checkout) (popup or inline, `checkout.js` / React), [payment buttons](https://docs.layerhop.com/guides/payment-buttons) with no backend, and a [WordPress / WooCommerce plugin](https://docs.layerhop.com/guides/wordpress) |
+| **Merchant tools** | [Invoices](https://docs.layerhop.com/guides/invoices) sent by email and paid on a hosted page, with PDF receipts; [refunds](https://docs.layerhop.com/guides/refunds), full or partial, signed from your own wallet and routed back to the payer's chain and token; [payment analytics](https://docs.layerhop.com/guides/analytics) with CSV export |
+| **On your site** | [Embedded checkout](https://docs.layerhop.com/guides/embedded-checkout) (popup or inline, `checkout.js` / React), [payment buttons](https://docs.layerhop.com/guides/payment-buttons) with no backend, and a [WordPress / WooCommerce plugin](https://github.com/layerhop/layerhop-wordpress) ([download](https://github.com/layerhop/layerhop-wordpress/releases/latest/download/layerhop.zip), [guide](https://docs.layerhop.com/guides/wordpress)) |
 | **Test mode** | [`lh_test_` keys](https://docs.layerhop.com/guides/test-mode): sandbox quotes, simulated orders and test webhooks, no real funds |
-| **Dashboard** | [dashboard.layerhop.com](https://dashboard.layerhop.com): sign in with your wallet, create API keys, payment links, see usage, logs and orders, switch to test mode |
+| **Dashboard** | [dashboard.layerhop.com](https://dashboard.layerhop.com): sign in with your wallet, create API keys, payment links and invoices, issue refunds, see usage, logs, orders and payment analytics, switch to test mode |
 | **Live status** | [Server-Sent Events](https://docs.layerhop.com/guides/live-status) for orders and checkout sessions: every change the moment it happens |
-| **Webhooks** | Signed `order.*` and `checkout.session.*` events, sample events, secret rotation, event log; develop locally with `layerhop listen --forward-to localhost` |
-| **SDKs** | TypeScript, React, Python, Go, Rust, plus a `layerhop` CLI (see install below) |
+| **Webhooks** | Signed `order.*`, `checkout.session.*` and `invoice.*` events, sample events, secret rotation, event log; develop locally with `layerhop listen --forward-to localhost` |
+| **SDKs** | TypeScript, React, Python, Go, Rust, plus a `layerhop` CLI (see install below). SDKs 0.5 cover invoices, refunds and platform status |
 | **Widget** | One iframe or React component, themeable, with postMessage events |
 | **AI agents** | MCP server at `mcp.layerhop.com/mcp` (listed in the official MCP Registry as `com.layerhop/mcp`): Claude, ChatGPT and Cursor can quote swaps and hand you a link to sign |
 | **Partner fees** | Earn your own fee on top of every swap your users make |
+| **Status** | [status.layerhop.com](https://status.layerhop.com): live status, 90-day uptime and incidents for every component and provider; JSON at `GET https://api.layerhop.com/v1/status` |
 
 ### Install
 
@@ -71,6 +74,7 @@ cargo add layerhop                 # Rust
 | [layerhop-python](https://github.com/layerhop/layerhop-python) | Python SDK, sync + async (MIT) |
 | [layerhop-go](https://github.com/layerhop/layerhop-go) | Go SDK, standard library only (MIT) |
 | [layerhop-rust](https://github.com/layerhop/layerhop-rust) | Rust SDK, async on reqwest + tokio (MIT) |
+| [layerhop-wordpress](https://github.com/layerhop/layerhop-wordpress) | WordPress / WooCommerce plugin: crypto payment method, order status and refund sync, payment button shortcode (GPL-2.0+) |
 
 Read the docs at **[docs.layerhop.com](https://docs.layerhop.com)**. Questions? See [SUPPORT.md](https://github.com/layerhop/.github/blob/main/SUPPORT.md).
 
