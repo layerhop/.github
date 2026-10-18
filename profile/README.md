@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://layerhop.com"><b>Launch app</b></a> ·
   <a href="https://docs.layerhop.com">Docs</a> ·
+  <a href="https://docs.layerhop.com/playground">API playground</a> ·
   <a href="https://t.me/layerhop_bot">Telegram bot</a> ·
   <a href="https://dashboard.layerhop.com">Dashboard</a> ·
   <a href="https://docs.layerhop.com/llms.txt">llms.txt</a> ·
@@ -22,16 +23,18 @@ LayerHop finds the best route for your swap across chains and protocols, then ha
 
 ## For builders
 
-Add cross-chain swaps to your product:
+Add cross-chain swaps and crypto payments to your product:
 
 | | |
 |---|---|
-| **REST API** | `GET /v1/quote` → `POST /v1/orders` → `GET /v1/orders/{provider}/{id}`, plus `/v1/simulate` |
-| **Dashboard** | [dashboard.layerhop.com](https://dashboard.layerhop.com): sign in with your wallet, create API keys, see usage, logs and orders |
-| **Webhooks** | Signed `order.filled` / `refunded` / `failed` events to your server |
+| **REST API** | `GET /v1/quote` → `POST /v1/orders` → `GET /v1/orders/{provider}/{id}`, plus `/v1/simulate`. Try every endpoint in the [API playground](https://docs.layerhop.com/playground) |
+| **Checkout** | [Pay with any token](https://docs.layerhop.com/guides/checkout): get paid in USDC or USDT while customers pay with any token on any chain; delivery verified on chain before `paid` |
+| **Test mode** | [`lh_test_` keys](https://docs.layerhop.com/guides/test-mode): sandbox quotes, simulated orders and test webhooks, no real funds |
+| **Dashboard** | [dashboard.layerhop.com](https://dashboard.layerhop.com): sign in with your wallet, create API keys, payment links, see usage, logs and orders, switch to test mode |
+| **Webhooks** | Signed `order.*` and `checkout.session.*` events to your server |
 | **SDKs** | TypeScript, React, Python, Go, Rust, plus a `layerhop` CLI (see install below) |
 | **Widget** | One iframe or React component, themeable, with postMessage events |
-| **AI agents** | MCP server at `mcp.layerhop.com/mcp`: Claude, ChatGPT and Cursor can quote swaps and hand you a link to sign |
+| **AI agents** | MCP server at `mcp.layerhop.com/mcp` (listed in the official MCP Registry as `com.layerhop/mcp`): Claude, ChatGPT and Cursor can quote swaps and hand you a link to sign |
 | **Partner fees** | Earn your own fee on top of every swap your users make |
 
 ### Install
