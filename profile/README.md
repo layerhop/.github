@@ -31,7 +31,8 @@ Add cross-chain swaps and crypto payments to your product:
 | **Checkout** | [Pay with any token](https://docs.layerhop.com/guides/checkout): get paid in USDC or USDT while customers pay with any token on any chain; delivery verified on chain before `paid` |
 | **Test mode** | [`lh_test_` keys](https://docs.layerhop.com/guides/test-mode): sandbox quotes, simulated orders and test webhooks, no real funds |
 | **Dashboard** | [dashboard.layerhop.com](https://dashboard.layerhop.com): sign in with your wallet, create API keys, payment links, see usage, logs and orders, switch to test mode |
-| **Webhooks** | Signed `order.*` and `checkout.session.*` events to your server |
+| **Live status** | [Server-Sent Events](https://docs.layerhop.com/guides/live-status) for orders and checkout sessions: every change the moment it happens |
+| **Webhooks** | Signed `order.*` and `checkout.session.*` events, sample events, secret rotation, event log; develop locally with `layerhop listen --forward-to localhost` |
 | **SDKs** | TypeScript, React, Python, Go, Rust, plus a `layerhop` CLI (see install below) |
 | **Widget** | One iframe or React component, themeable, with postMessage events |
 | **AI agents** | MCP server at `mcp.layerhop.com/mcp` (listed in the official MCP Registry as `com.layerhop/mcp`): Claude, ChatGPT and Cursor can quote swaps and hand you a link to sign |
