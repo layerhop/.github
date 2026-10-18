@@ -1,0 +1,21 @@
+name: Bug report
+description: Something in an SDK, the CLI, the widget or the MCP server doesn't work
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Security problem? Do not file it here. Email security@layerhop.com instead. Never paste private keys or seed phrases."
+  - type: input
+    id: package
+    attributes: { label: Package and version, placeholder: "@layerhop/sdk 0.1.0" }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: What happened?, description: "What you did, what you expected and what you got. Include the quote ID or order ID if you have one." }
+    validations: { required: true }
+  - type: textarea
+    id: repro
+    attributes: { label: Minimal reproduction, render: ts }
+  - type: input
+    id: env
+    attributes: { label: Environment, placeholder: "Node 22, macOS / Python 3.12 / browser" }

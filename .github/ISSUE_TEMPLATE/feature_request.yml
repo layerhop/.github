@@ -1,0 +1,11 @@
+name: Feature request
+description: Suggest a new chain, provider, SDK method or improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes: { label: What are you trying to do?, description: The problem or use case behind the request }
+    validations: { required: true }
+  - type: textarea
+    id: proposal
+    attributes: { label: What would help?, description: The API, option or behaviour you have in mind }

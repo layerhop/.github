@@ -5,6 +5,8 @@
 <p align="center">
   <a href="https://layerhop.com"><b>Launch app</b></a> ·
   <a href="https://docs.layerhop.com">Docs</a> ·
+  <a href="https://t.me/layerhop_bot">Telegram bot</a> ·
+  <a href="https://dashboard.layerhop.com">Dashboard</a> ·
   <a href="https://docs.layerhop.com/llms.txt">llms.txt</a> ·
   <a href="mailto:dev@layerhop.com">Contact</a>
 </p>
@@ -52,7 +54,14 @@ pip install layerhop               # Python
 | `@layerhop/mcp` | [![npm](https://img.shields.io/npm/v/@layerhop/mcp?color=c3f06b&labelColor=090d15)](https://www.npmjs.com/package/@layerhop/mcp) |
 | `layerhop` (Python) | [![PyPI](https://img.shields.io/pypi/v/layerhop?color=c3f06b&labelColor=090d15)](https://pypi.org/project/layerhop/) |
 
-Read the docs at **[docs.layerhop.com](https://docs.layerhop.com)**.
+## Open-source repositories
+
+| Repository | What's inside |
+|---|---|
+| [layerhop-js](https://github.com/layerhop/layerhop-js) | TypeScript SDK, React hooks, swap widget, CLI and MCP server (MIT) |
+| [layerhop-python](https://github.com/layerhop/layerhop-python) | Python SDK, sync + async (MIT) |
+
+Read the docs at **[docs.layerhop.com](https://docs.layerhop.com)**. Questions? See [SUPPORT.md](https://github.com/layerhop/.github/blob/main/SUPPORT.md).
 
 ## Security
 
