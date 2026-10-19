@@ -36,7 +36,7 @@ Add cross-chain swaps and crypto payments to your product:
 | **Dashboard** | [dashboard.layerhop.com](https://dashboard.layerhop.com): sign in with your wallet, create API keys, payment links and invoices, issue refunds, see usage, logs, orders and payment analytics, switch to test mode |
 | **Live status** | [Server-Sent Events](https://docs.layerhop.com/guides/live-status) for orders and checkout sessions: every change the moment it happens |
 | **Webhooks** | Signed `order.*`, `checkout.session.*` and `invoice.*` events, sample events, secret rotation, event log; develop locally with `layerhop listen --forward-to localhost` |
-| **SDKs** | TypeScript, React, Python, Go, Rust, plus a `layerhop` CLI (see install below). SDKs 0.5 cover invoices, refunds and platform status |
+| **SDKs** | TypeScript, React, Python, Go, Rust, plus a `layerhop` CLI (see install below). SDKs 0.6 add deposit addresses, subscriptions, limit orders and gas on arrival |
 | **Widget** | One iframe or React component, themeable, with postMessage events |
 | **AI agents** | MCP server at `mcp.layerhop.com/mcp` (listed in the official MCP Registry as `com.layerhop/mcp`): Claude, ChatGPT and Cursor can quote swaps and hand you a link to sign |
 | **Partner fees** | Earn your own fee on top of every swap your users make |
