@@ -50,9 +50,15 @@ npm install @layerhop/react        # React hooks
 npm install @layerhop/widget       # embeddable swap widget
 npx @layerhop/cli chains           # CLI
 npx -y @layerhop/mcp               # MCP server for AI agents
+npm install @layerhop/wagmi        # execute quotes with wagmi (EIP-5792 one-click approve + swap)
+npm install @layerhop/ai           # tools for Vercel AI SDK, LangChain, OpenAI Agents
+npm install @layerhop/react-native # widget + checkout for React Native / Expo
 pip install layerhop               # Python
 go get github.com/layerhop/layerhop-go   # Go
 cargo add layerhop                 # Rust
+# Swift: .package(url: "https://github.com/layerhop/layerhop-swift", from: "0.6.0")
+# Kotlin: implementation("com.github.layerhop:layerhop-kotlin:v0.6.0")  (JitPack)
+# Unity / C#: https://github.com/layerhop/layerhop-csharp.git?path=src/LayerHop#v0.6.0
 ```
 
 | Package | Registry |
@@ -70,10 +76,15 @@ cargo add layerhop                 # Rust
 
 | Repository | What's inside |
 |---|---|
-| [layerhop-js](https://github.com/layerhop/layerhop-js) | TypeScript SDK, React hooks, swap widget, CLI and MCP server (MIT) |
+| [layerhop-js](https://github.com/layerhop/layerhop-js) | TypeScript SDK, React and React Native, swap widget, wagmi and Solana wallet helpers, CLI, MCP server and AI agent framework plugins (MIT) |
 | [layerhop-python](https://github.com/layerhop/layerhop-python) | Python SDK, sync + async (MIT) |
 | [layerhop-go](https://github.com/layerhop/layerhop-go) | Go SDK, standard library only (MIT) |
 | [layerhop-rust](https://github.com/layerhop/layerhop-rust) | Rust SDK, async on reqwest + tokio (MIT) |
+| [layerhop-swift](https://github.com/layerhop/layerhop-swift) | Swift SDK for iOS and macOS, async/await, zero dependencies (MIT) |
+| [layerhop-kotlin](https://github.com/layerhop/layerhop-kotlin) | Kotlin SDK for Android and the JVM, coroutines (MIT) |
+| [layerhop-csharp](https://github.com/layerhop/layerhop-csharp) | C# SDK for .NET and Unity (MIT) |
+| [examples](https://github.com/layerhop/examples) | Starter templates: Next.js swap and checkout, deposit-address backend, widget embed, AI agent, Expo app |
+| [setup-layerhop](https://github.com/layerhop/setup-layerhop) | GitHub Action: a local LayerHop mock API for integration tests |
 | [layerhop-wordpress](https://github.com/layerhop/layerhop-wordpress) | WordPress / WooCommerce plugin: crypto payment method, order status and refund sync, payment button shortcode (GPL-2.0+) |
 
 Read the docs at **[docs.layerhop.com](https://docs.layerhop.com)**. Questions? See [SUPPORT.md](https://github.com/layerhop/.github/blob/main/SUPPORT.md).
